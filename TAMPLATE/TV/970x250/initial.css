@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "ATTAleckSans_Bold";
+    src: url("ATTAleckSans_Bold.woff") format("woff"), url("ATTAleckSans_Bold.woff2")  format("woff2");
+}
+
+@font-face {
+    font-family: "ATTAleckSans_Medium";
+    src: url("ATTAleckSans_Medium.woff") format("woff"), url("ATTAleckSans_Medium.woff2")  format("woff2");
+}
+
+body {
+    margin:0;
+    padding:0;	
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 970px;
+    height: 250px;
+	overflow: hidden;
+	background: -webkit-gradient(linear, left top, right top, from(#2fc5f4), to(#047cb5));
+	background: linear-gradient(to right, #2fc5f4, #047cb5);
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: -webkit-gradient(linear, left top, right top, from(#2fc5f4), to(#047cb5));
+    background: linear-gradient(to right, #2fc5f4, #047cb5);
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #565656; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    width: 300px;
+    height: inherit;
+    background: -webkit-gradient(linear, left top, right top, from(#2bc3f4), to(#14ade4));
+    background: linear-gradient(to right, #2bc3f4, #14ade4);
+    cursor: pointer;
+    left: 0;
+}
+
+#logoitem {
+    position: absolute;
+    top: 40px;    
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 159px;
+    height: 140px;
+    background: url(logo.png) center center;
+    background-size: contain;
+    background-repeat: no-repeat;    
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.orangeline {
+    width: 3px;
+    height: inherit;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffab05), to(#ff595c));
+    background: linear-gradient(to bottom, #ffab05, #ff595c);
+}
+
+#footer {
+    width: 300px;
+    height: inherit;
+    right: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#14ade4), to(#027ab3));
+    background: linear-gradient(to right, #14ade4, #027ab3);
+}
+
+#footline {
+    left:-3px;
+}
+
+#logoline {
+    right:-3px;
+}
+
+/*TEXT*/
+#text-1-Wrap {
+    text-align: center;
+    width: inherit;
+    top: 75px;
+}
+
+#text1 {
+    font-family: "ATTAleckSans_Bold", serif;
+    font-size: 43px;
+    color: #fff;
+}
+
+#text-2-Wrap {
+    text-align: center;
+    width: inherit;
+    top: 55px;
+}
+
+#text2 {
+    font-family: "ATTAleckSans_Bold", serif;
+    font-size: 43px;
+    color: #fff;
+}
+
+#event-title {
+    font-size: 34px;
+    font-family: "ATTAleckSans_Bold", serif; 
+    color: #fff;
+    top: 29px;
+    width: inherit;
+    text-align: center;
+}
+
+#textevent {
+    text-align: center;
+    width: inherit;
+    height: 100px;
+    bottom: 29px;
+    font-family: "ATTAleckSans_Medium", serif;
+    font-size: 21px;
+    line-height: 160%;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#slogan {
+    font-family: "ATTAleckSans_Bold", serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    line-height: 120%;
+    width: inherit;
+    top: 130px;
+}
+
+#slogan-part1, #slogan-part2 {
+    width: inherit;
+    text-align: center;
+}
+
+#slogan-part2 {
+    top: 20px;
+}
+
+#img {
+    width: 370px;
+    height: inherit;
+    top: 0;
+    left: 300px; 
+    background: url('image.jpg') no-repeat;
+    background-size: cover;
+}
+

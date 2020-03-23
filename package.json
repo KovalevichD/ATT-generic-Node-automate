@@ -1,0 +1,19 @@
+{
+  "name": "savetime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Dmitry Kovalevich",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6",
+    "googleapis": "^39.2.0",
+    "jquery": "^3.4.1",
+    "jsdom": "^16.0.1",
+    "zip-local": "^0.3.4"
+  }
+}

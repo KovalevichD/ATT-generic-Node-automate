@@ -1,0 +1,129 @@
+@font-face {
+    font-family: ATTAleckSans_Bold;
+    src: url("ATTAleckSans_Bold.woff") format("woff"), url("ATTAleckSans_Bold.woff2")  format("woff2");
+}
+
+@font-face {
+    font-family: ATTAleckSans_Medium;
+    src: url("ATTAleckSans_Medium.woff") format("woff"), url("ATTAleckSans_Medium.woff2")  format("woff2");
+}
+
+body {
+    margin:0;
+    padding:0;	
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 600px;
+	overflow: hidden;
+	background: linear-gradient(-30deg, #3066b0 0%, #51bbf8 100%);
+    color: #fff;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(-30deg, #3066b0 0%, #51bbf8 100%);
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #565656; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    cursor: pointer;
+    width: 110px;
+    height: 45px;
+    bottom: 23px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url('logo_w.svg') no-repeat;
+    background-size: contain;
+}
+
+#text {
+    width: inherit;
+    height: inherit;
+    text-align: center;
+}
+
+#text > div {
+    width: inherit;
+    height: inherit;
+}
+
+.boldt {
+    font-family: "ATTAleckSans_Bold", serif;
+}
+
+.mediumt {
+    font-family: "ATTAleckSans_Medium", serif;
+}
+
+#textevent {
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    top: 150px;
+    line-height: 150%;
+    font-size: 21px;
+}
+
+#text1 {
+    font-size: 32px;
+    top: 110px;
+    
+}
+
+#text2 {
+    font-size: 20px;
+    top: 240px;
+    line-height: 120%;
+}
+
+#text3 {
+    font-size: 38px;
+    top: 100px;
+    line-height: 110%;
+}
+
+#text4 {
+    font-size: 22px;
+    top: 252px;
+    line-height: 124%;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: #00FF00;
+}
+
+#container {
+    width: inherit;
+    height: inherit;
+    top: 0;
+    left: 0;
+}
+

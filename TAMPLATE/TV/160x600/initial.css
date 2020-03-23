@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "ATTAleckSans_Bold";
+    src: url("ATTAleckSans_Bold.woff") format("woff"), url("ATTAleckSans_Bold.woff2")  format("woff2");
+}
+
+@font-face {
+    font-family: "ATTAleckSans_Medium";
+    src: url("ATTAleckSans_Medium.woff") format("woff"), url("ATTAleckSans_Medium.woff2")  format("woff2");
+}
+
+body {
+    margin:0;
+    padding:0;	
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 600px;
+	overflow: hidden;
+	background: -webkit-gradient(linear, left top, right top, from(#2fc5f4), to(#047cb5));
+	background: linear-gradient(to right, #2fc5f4, #047cb5);
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: -webkit-gradient(linear, left top, right top, from(#2fc5f4), to(#047cb5));
+    background: linear-gradient(to right, #2fc5f4, #047cb5);
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #565656; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    width: inherit;
+    height: 207px;
+    background: -webkit-gradient(linear, left top, right top, from(#2fc5f4), to(#047cb5));
+    background: linear-gradient(to right, #2fc5f4, #047cb5);
+    cursor: pointer;
+    top:0;
+}
+
+#logoitem {
+    position: absolute;
+    top: 50%;    
+    left: 26px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 106px;
+    height: 144px;
+    background: url(logo.png) center center;
+    background-size: contain;
+    background-repeat: no-repeat;    
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.orangeline {
+    width: inherit;
+    height: 3px;
+    background: -webkit-gradient(linear, left top, right top, from(#ffab05), to(#ff595c));
+    background: linear-gradient(to right, #ffab05, #ff595c);
+}
+
+#footer {
+    width: inherit;
+    height: 208px;
+    bottom: 0;
+    background: -webkit-gradient(linear, left top, right top, from(#2fc5f4), to(#047cb5));
+    background: linear-gradient(to right, #2fc5f4, #047cb5);
+}
+
+#footline {
+    top:-3px;
+}
+
+#logoline {
+    bottom:-3px;
+}
+
+#mask {
+    width: inherit;
+    height: inherit;
+    overflow: hidden;
+}
+
+/*TEXT*/
+#text-1-Wrap {
+    text-align: center;
+    width: inherit;
+    top: 50px;
+}
+
+#text1 {
+    font-family: "ATTAleckSans_Bold", serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+#text-2-Wrap {
+    text-align: center;
+    width: inherit;
+    top: 57px;
+}
+
+#text2 {
+    font-family: "ATTAleckSans_Bold", serif;
+    font-size: 30px;
+    color: #fff;
+}
+
+#event-title {
+    text-align: center;
+    width: inherit;
+    top: 20px;
+    font-size: 24px;
+    font-family: "ATTAleckSans_Bold", serif; 
+    line-height: 100%;
+    display: inline-block;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#textevent {
+    text-align: center;
+    width: inherit;
+    height: 80px;
+    top: 90px;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    font-family: "ATTAleckSans_Medium", serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+#slogan {
+    font-family: "ATTAleckSans_Bold", serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    width: inherit;
+    top: 100px;
+}
+
+#slogan-part1, #slogan-part2 {
+    width: inherit;
+    text-align: center;
+}
+
+#slogan-part2 {
+    top: 15px;
+}
+
+#img {
+    width: inherit;
+    height: 185px;
+    top: 207px;
+    left: 0; 
+    background: url('image.jpg') no-repeat;
+}
+

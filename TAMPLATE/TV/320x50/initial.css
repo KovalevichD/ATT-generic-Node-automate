@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "ATTAleckSans_Bold";
+    src: url("ATTAleckSans_Bold.woff") format("woff"), url("ATTAleckSans_Bold.woff2")  format("woff2");
+}
+
+@font-face {
+    font-family: "ATTAleckSans_Medium";
+    src: url("ATTAleckSans_Medium.woff") format("woff"), url("ATTAleckSans_Medium.woff2")  format("woff2");
+}
+
+body {
+    margin:0;
+    padding:0;	
+}
+
+div {
+    position:absolute;
+}
+
+#wrapper {
+    display:block;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 50px;
+	overflow: hidden;
+}
+
+#wrect {
+    width: inherit;
+    height: inherit;
+    background: -webkit-gradient(linear, left top, right top, from(#3bc8f5), to(#047eb6));
+    background: linear-gradient(to right, #3bc8f5, #047eb6);
+    pointer-events: none;
+}
+
+#border {
+    border: 1px solid #565656; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    pointer-events: none;
+}
+
+#bgexit {
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+}
+
+#logo {
+    width: 75px;
+    height: inherit;
+    background: -webkit-gradient(linear, left top, right top, from(#3bc8f5), to(#047eb6));
+    background: linear-gradient(to right, #3bc8f5, #047eb6);
+    cursor: pointer;
+    left: 0;
+}
+
+#logoitem {
+    position: absolute;
+    top: 13px;    
+    left: 49%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 65px;
+    height: 25px;
+    background: url("logo.png") center center;
+    background-size: contain;
+    background-repeat: no-repeat;    
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.orangeline {
+    width: 2px;
+    height: inherit;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ffab05), to(#ff595c));
+    background: linear-gradient(to bottom, #ffab05, #ff595c);
+}
+
+#logoline {
+    right:-2px;
+}
+
+/*TEXT*/
+#text-1-Wrap {
+    text-align: center;
+    width: 90px;
+    top: 7px;
+    right: 10px;
+}
+
+#text1 {
+    font-family: "ATTAleckSans_Bold", serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+#text-2-Wrap {
+    text-align: center;
+    line-height: 13px;
+    width: 80px;
+    top: 5px;
+    right: 15px;
+}
+
+#text2 {
+    font-family: "ATTAleckSans_Bold", serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+#event-title {
+    font-size: 9px;
+    font-family: "ATTAleckSans_Bold", serif;
+    color: #fff;
+    top: 4px;
+    right: 10px;
+}
+
+#textevent {
+    text-align: center;
+    height: 28px;
+    bottom: 4px;
+    font-family: "ATTAleckSans_Medium", serif;
+    font-size: 9px;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    right: 61px;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    
+}
+
+#slogan {
+    font-family: "ATTAleckSans_Bold", serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 8px;
+    line-height: 120%;
+    top: 13px;
+    left: 6px;
+    width: 100px;
+    height: inherit;
+    text-align: center;
+}
+
+#slogan-part1, #slogan-part2 {
+    width: 160px;
+    top: 15px;
+}
+
+#slogan-part1 {
+    left: 13px;
+}
+
+#slogan-part2 {
+    right: 11px;
+}
+
+#img {
+    width: 270px;
+    height: inherit;
+    top: 0;
+    left: 70px; 
+    background: url('image.jpg') no-repeat center center;
+    background-size: cover;
+}
+
