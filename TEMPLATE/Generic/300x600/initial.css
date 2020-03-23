@@ -83,10 +83,11 @@ div {
 }
 
 #textevent {
-    width: inherit;
+    width: 280px;
     height: inherit;
     text-align: center;
     top: 150px;
+    left: 10px;
     line-height: 150%;
     font-size: 31px;
 }

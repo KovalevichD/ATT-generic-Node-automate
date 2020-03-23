@@ -139,10 +139,11 @@ div {
 }
 
 #textevent {
-    width: inherit;
+    width: 280px;
     text-align: center;
     height: 95px;
     bottom: 19px;
+    left: 10px;
     font-family: "ATTAleckSans_Medium", serif;
     font-size: 21px;
     color: #fff;

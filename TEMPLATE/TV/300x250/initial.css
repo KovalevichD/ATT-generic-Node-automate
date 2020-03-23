@@ -144,9 +144,10 @@ div {
     font-size: 12px;
     color: #fff;
     text-align: center;
-    width: inherit;
+    width: 280px;
     height: 45px;
     bottom: 7px;
+    left: 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

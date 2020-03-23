@@ -134,9 +134,10 @@ div {
 
 #textevent {
     text-align: center;
-    width: inherit;
+    width: 169px;
     height: 50px;
     bottom: 7px;
+    right: 3px;
     font-family: "ATTAleckSans_Medium", serif;
     font-size: 12px;
     line-height: 110%;

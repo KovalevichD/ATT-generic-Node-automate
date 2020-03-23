@@ -143,9 +143,10 @@ div {
 
 #textevent {
     text-align: center;
-    width: inherit;
+    width: 150px;
     height: 80px;
     top: 90px;
+    left: 5px;
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
