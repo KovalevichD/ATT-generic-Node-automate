@@ -68,7 +68,7 @@ function mainProcess(data) {
 
     fs.mkdirSync(dateNowFolder)
 
-    // copy source folder (tamplate) to destination with content and change innerHtml by data
+    // copy source folder (template) to destination with content and change innerHtml by data
     // split data by arrays
     data.forEach( property => {
         let [propertyName, startDate, time, endDate, spaceName, distinction, event] = property
@@ -112,11 +112,11 @@ function zipCreativesCopyBackups(readyFolder, copiedFolder, startDate, propertyN
 
     event === 'AT&T TV' ? event = 'TV' : event = 'Generic'
 
-    const tamplateBackupsFolder = __dirname + '/BACKUPS/' + event
+    const templateBackupsFolder = __dirname + '/BACKUPS/' + event
     //copy backups
-    fs.readdirSync(tamplateBackupsFolder).forEach(backupTamplate => {
-        const subFolderBackupPath = path.resolve(tamplateBackupsFolder, backupTamplate)
-        const copiedBackup = path.resolve(readyFolderPath, nameOfZipsAndBackups) + backupTamplate
+    fs.readdirSync(templateBackupsFolder).forEach(backupTemplate => {
+        const subFolderBackupPath = path.resolve(templateBackupsFolder, backupTemplate)
+        const copiedBackup = path.resolve(readyFolderPath, nameOfZipsAndBackups) + backupTemplate
 
         fs.copyFileSync(subFolderBackupPath, copiedBackup)
     })
@@ -135,11 +135,11 @@ function formattingTime(str) {
     return formattedTime
 }
 
-// copy source folder (tamplate) to destination with content and change innerHtml by data
+// copy source folder (template) to destination with content and change innerHtml by data
 function copyFoldersChangeHtmls(destination, text1, text2, text3, distinction, modifiedCreativesFolder, event) {
     event === 'AT&T TV' ? event = 'TV' : event = 'Generic'
 
-    const tamplateOfCreativesFolder = __dirname + '/TAMPLATE/' + event
+    const templateOfCreativesFolder = __dirname + '/TEMPLATE/' + event
     let nameOfCopiedFolder = modifiedCreativesFolder
 
     //if propertyName is repeating in the data - add distinction in their name
@@ -150,8 +150,8 @@ function copyFoldersChangeHtmls(destination, text1, text2, text3, distinction, m
     }
 
     try {
-        //deep copy folder from tamplate and rename by data
-        fsExtra.copySync(tamplateOfCreativesFolder, nameOfCopiedFolder)
+        //deep copy folder from template and rename by data
+        fsExtra.copySync(templateOfCreativesFolder, nameOfCopiedFolder)
         //find all html files and replace innerHtml in them
         glob.sync(nameOfCopiedFolder + '/**/*.html').forEach(file => {
             changeInnerHtml(text1, text2, text3, file)
