@@ -172,7 +172,7 @@ async function gsRun(cl) {
 
     const opt = {
         spreadsheetId: '1eP-VwcpLEpjUGiaAwgxJM0MbkIMIXCcFkeW9cDtO20Q',
-        range: 'Data!B2:H100'
+        range: 'Data!B2:H200'
     }
 
     let data = await gsApi.spreadsheets.values.get(opt)
