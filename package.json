@@ -14,6 +14,6 @@
     "googleapis": "^39.2.0",
     "jquery": "^3.4.1",
     "jsdom": "^16.0.1",
-    "zip-local": "^0.3.4"
+    "zip-local": "^0.3.5"
   }
 }
